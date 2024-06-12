@@ -53,7 +53,7 @@ app.baseURL = 'http://localhost:8081/'
 #--------------------------------------------------------------------
 
 database.default.hostname = localhost
-database.default.database = APPSPP_CI4
+database.default.database = aplikasi-spp
 database.default.username = root
 database.default.password = 
 database.default.DBDriver = MySQLi

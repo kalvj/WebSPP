@@ -33,7 +33,7 @@
 
     
 <form class="form-signin" method="POST" action="/login">
-  <img class="mb-4" src="/logo-sekolah.jpeg" class="img-thumbnail">
+  <img class="mb-4" src="/logo-sekolah.png" class="img-thumbnail">
   <h1 class="h3 mb-3 font-weight-normal">Silahkan Login</h1>
   <label for="inputUser" class="sr-only">Username</label>
   <input type="text" name="txtUsername" id="inputUser" class="form-control" placeholder="Username" required autofocus>
