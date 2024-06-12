@@ -12,11 +12,6 @@
 </div>
 
 <div class="form-group">
-    <label class="font-weight-bold"> 	Kompetensi Keahlian</label>
-    <input type="text" name="txtInputKompetensi" class="form-control" placeholder="Masukan nama kompetensi keahlian, misal Rekayasa Perangkat Lunak" value="<?=$detailKelas[0]['kompetensi_keahlian'];?>" autocomplete="off" required>
-</div>
-
-<div class="form-group">
     <button class="btn btn-primary">Update Kelas</button>
 </div>
 

@@ -38,8 +38,7 @@ class Kelas extends BaseController
 		}
 		// 2 menampung data dari form
 		$data=[
-			'nama_kelas'=>$this->request->getPost('txtNamaKelas'),
-			'kompetensi_keahlian'=>$this->request->getPost('txtInputKompetensi')	
+			'nama_kelas'=>$this->request->getPost('txtNamaKelas'),	
 		];
 		// 3 menyimpan kedalam tbl
 		$this->kelas->save($data);
@@ -66,8 +65,7 @@ class Kelas extends BaseController
 		
 		// 2 menampung data dari form
 		$data=[
-			'nama_kelas'=>$this->request->getPost('txtNamaKelas'),
-			'kompetensi_keahlian'=>$this->request->getPost('txtInputKompetensi')	
+			'nama_kelas'=>$this->request->getPost('txtNamaKelas'),	
 		];
 		// 3 menjalanka proses update
 		$this->kelas->update($this->request->getPost('txtIdKelas'),$data);

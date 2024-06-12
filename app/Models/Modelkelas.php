@@ -14,7 +14,7 @@ class Modelkelas extends Model
 	protected $returnType           = 'array';
 	protected $useSoftDelete        = false;
 	protected $protectFields        = true;
-	protected $allowedFields        = ['nama_kelas','kompetensi_keahlian'];
+	protected $allowedFields        = ['nama_kelas'];
 
 	// Dates
 	protected $useTimestamps        = false;

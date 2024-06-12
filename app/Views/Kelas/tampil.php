@@ -13,7 +13,6 @@
     <tr>
         <th>No.</th>
         <th>Nama Kelas</th>
-        <th>Kompetensi Keahlian</th>
         <th>Aksi</th>
     </tr>
 </thead>
@@ -26,8 +25,7 @@ if(isset($listKelas)){
         $noUrut++;
         $htmlData ='<tr>';
         $htmlData .='<td>'.$noUrut.'</td>';     
-        $htmlData .='<td>'.$row['nama_kelas'].'</td>';     
-        $htmlData .='<td>'.$row['kompetensi_keahlian'].'</td>';     
+        $htmlData .='<td>'.$row['nama_kelas'].'</td>';         
         $htmlData .='<td>';
         $htmlData .='<a href="/kelas/edit/'.$row['id_kelas'].'" class="mr-2"><i class="fas fa-edit"></i></a>';
         $htmlData .='<a href="/kelas/hapus/'.$row['id_kelas'].'" data-confirm="Apakah anda yakin akan menghapus data ?"><i class="fas fa-trash-alt"></i></a>';
