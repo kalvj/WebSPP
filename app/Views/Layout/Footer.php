@@ -1,6 +1,6 @@
 <footer class="footer mt-auto py-3">
   <div class="container">
-    <span class="text-muted">By Oya Suryana</span>
+    <span class="text-muted">Spp Smp XYZ</span>
   </div>
 </footer>
 
