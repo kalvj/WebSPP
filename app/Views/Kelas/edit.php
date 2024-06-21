@@ -8,7 +8,7 @@
 
     <input type="hidden" name="txtIdKelas" class="form-control" value="<?=$detailKelas[0]['id_kelas'];?>">
 
-    <input type="text" name="txtNamaKelas" class="form-control" placeholder="Masukan nama kelas, misal : X RPL 1" value="<?=$detailKelas[0]['nama_kelas'];?>" autocomplete="off" autofocus required>
+    <input type="text" name="txtNamaKelas" class="form-control" placeholder="Masukan nama kelas" value="<?=$detailKelas[0]['nama_kelas'];?>" autocomplete="off" autofocus required>
 </div>
 
 <div class="form-group">

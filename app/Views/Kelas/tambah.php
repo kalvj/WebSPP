@@ -6,7 +6,7 @@
 <form method="POST" action="/kelas/simpan">
 <div class="form-group">
     <label class="font-weight-bold">Nama Kelas</label>
-    <input type="text" name="txtNamaKelas" class="form-control" placeholder="Masukan nama kelas, misal : X RPL 1" autocomplete="off" autofocus required>
+    <input type="text" name="txtNamaKelas" class="form-control" placeholder="Masukan nama kelas" autocomplete="off" autofocus required>
 </div>
 
 <div class="form-group">

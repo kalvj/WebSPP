@@ -7,9 +7,9 @@
 
 <form method="POST" action="/spp/update">
 <div class="form-group">
-    <label class="font-weight-bold">Tahun Angkatan</label>
+    <label class="font-weight-bold"></label>
     <input type="hidden" name="txtIdSpp" value="<?=$detailTarifSPP[0]['id_spp'];?>" class="form-control">
-    <input type="text" name="txtThnAngkatan" value="<?=$detailTarifSPP[0]['tahun'];?>" class="form-control" placeholder="Masukan tahun angkatan, misal : 2020" autocomplete="off" autofocus>
+    <input type="text" name="txtThnAngkatan" value="<?=$detailTarifSPP[0]['tahun'];?>" class="form-control" placeholder="Masukan , misal : 2020" autocomplete="off" autofocus>
 </div>
 
 <div class="form-group">

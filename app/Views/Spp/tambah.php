@@ -8,7 +8,7 @@
 <form method="POST" action="/spp/simpan">
 <div class="form-group">
     <label class="font-weight-bold">Tahun Angkatan</label>
-    <input type="text" name="txtThnAngkatan" class="form-control" placeholder="Masukan tahun angkatan, misal : 2020" autocomplete="off" autofocus>
+    <input type="text" name="txtThnAngkatan" class="form-control" placeholder="Masukan tahun angkatan, misal : 2024" autocomplete="off" autofocus>
 </div>
 
 <div class="form-group">
